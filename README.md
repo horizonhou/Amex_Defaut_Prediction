@@ -5,7 +5,7 @@
 
 ## Default Prediction: Final Writeup
 
-Hoi Ching Cheung, Jinzhao Kang, Ruize Hou
+Author: Hoi Ching Cheung, Jinzhao Kang, Ruize Hou
 
 Credit cards has become one of the most popular payment methods whether people are buying a cup of coffee or buying a new technological product. It is important for card issuers to be able to predict whether card users will pay back or not. Hence, credit default prediction is central for risk management in payment companies such as American Express. Better predictions lead to optimized decisions which can improve customer experience and companies' financial decisions. Our team would like to apply the knowledge we learned from this course to improve current credit default prediction.
 
