@@ -2,29 +2,8 @@
 #### Kaggle Competition: https://www.kaggle.com/competitions/amex-default-prediction
 #### AMEX-Feather-Dataset: https://www.kaggle.com/datasets/munumbutt/amexfeather
 
-\documentclass{article}
-\usepackage{neurips_2021}
-\usepackage[utf8]{inputenc} % allow utf-8 input
-\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
-\usepackage{hyperref}       % hyperlinks
-\usepackage{url}            % simple URL typesetting
-\usepackage{booktabs}       % professional-quality tables
-\usepackage{amsfonts}       % blackboard math symbols
-\usepackage{nicefrac}       % compact symbols for 1/2, etc.
-\usepackage{microtype}      % microtypography
-\usepackage{xcolor}         % colors
-\usepackage{multirow}
-\usepackage{graphicx}
 
 \title{Default Prediction: Final Writeup}
-
-% The \author macro works with any number of authors. There are two commands
-% used to separate the names and addresses of multiple authors: \And and \AND.
-%
-% Using \And between authors leaves it to LaTeX to determine where to break the
-% lines. Using \AND forces a line break at that point. So, if LaTeX puts 3 of 4
-% authors names on the first line, and the last on the second line, try using
-% \AND instead of \And before the third author name.
 
 \author{%
   Hoi Ching Cheung (hc792), Jinzhao Kang (jk2575), Ruize Hou (rh553) \\
