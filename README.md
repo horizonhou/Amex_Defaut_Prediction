@@ -57,12 +57,16 @@ For tree-based models, hyper-parameters $max\_depth$ and $n\_estimator$ are tune
 For the MLP neural network, since there are many hyper-parameters involved, $GridSearchCV$ is preferred to select the optimal combination. We defined the parameter space for grid searching as follows:
 
 $hidden\_layer\_sizes: [20, 60, 80, 100]$
+
 $activation: [tanh, relu, logistic]$
+
 $solver: [sgd, adam]$
+
 $alpha: [0.0001, 0.01, 0.05, 0.1]$
+
 $learning\_rate: [constant, adaptive]$
 
-And the optimal parameter combination is $hidden\_layer\_sizes=80$, $activation=logistic$, $solver=adam$, $alpha=0.1$, $learning\_rate=adaptive$ with the best score being 0.868.
+And the optimal parameter combination is $hidden layer sizes=80$, $activation=logistic$, $solver=adam$, $alpha=0.1$, $learning\_rate=adaptive$ with the best score being 0.868.
 
 ## Result
 Lastly, each model is trained with the optimal hyper-parameters obtained from the last stage. Again, the metric is balanced accuracy due to the imbalance of our dataset. For the validations, 3-fold cross-validation is used and the mean value is reported as the final validation score. The results are listed in Table \ref{table:1}.
