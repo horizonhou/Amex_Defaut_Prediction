@@ -28,7 +28,7 @@ The data set consists of five types of variables. Delinquency variables, spend v
 Logistic regression is a form of supervised machine learning that is used to calculate or predict a binary outcome. It estimates the probability of occurrence of a characteristic, in our case, the probability that a customer default. The logistic model is based on the logistic function, which only allows values between 0 and 1.
 
 Logistic regression is a classification algorithm which uses a model 
-$$f_\theta$ of the form $\[f_\theta(x)=\sigma(\theta^Tx)=\frac{1}{1+exp(-\theta^Tx)}\]$$
+$f_\theta$ of the form $$\[f_\theta(x)=\sigma(\theta^Tx)=\frac{1}{1+exp(-\theta^Tx)}\]$$
 where
 $$\[\sigma(z)=\frac{1}{1+exp(-z)}\]$$
 is the sigmoid or logistic function.
